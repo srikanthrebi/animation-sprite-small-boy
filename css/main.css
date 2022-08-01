@@ -1,0 +1,33 @@
+#container{
+    position: relative;
+    width: 108px;
+    height: 140px;
+    overflow: hidden;
+    margin: auto;
+}
+#sprite{
+    position: relative;
+    width: 864px;
+    height: 140px;
+    animation-name: boy;
+    animation-timing-function: steps(16);
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    transform: translateX(0);
+}
+@keyframes boy{
+    100%{
+        transform: translateX(-1728px);
+        
+    }
+}
+#img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#img-1{
+    position: absolute;
+    top: -140px;
+    left: 864px;
+}
